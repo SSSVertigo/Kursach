@@ -27,6 +27,7 @@ function App() {
           <Route path="/basket" element={<Basket />} />
           <Route path="/profile" element={<ProductedProfile />} />
           <Route path="/admin">
+          // я ебал мамку динара
             <Route index element={<ProductedAdmin />} />
             <Route path="orders" element={<Orders />} />
             <Route path="products">
