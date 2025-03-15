@@ -18,7 +18,7 @@ app.use(routes);
 app.use((req, res, next) => {
   return next(Boom.notFound('This route does not exist.'));
 });
-// я папу динара убил
+// я папу динара уважаю
 app.use((err, req, res, next) => {
   console.log(err);
 
